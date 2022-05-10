@@ -1,0 +1,27 @@
+
+
+<h2>Interpolation</h2>
+
+<p>{{nome}} tem {{ idade}} anos!</p>
+
+<p>{{nome}} tem  mais de   28 anos?</p>
+<p>{{idade > 28}}</p>
+
+<p>quanto é {{idade + 1}}</p>
+ 
+
+<h2>Event Binding</h2>
+
+<button (click)="alertaInfo('Deu  bom Daner!')">Evento</button>
+
+<br>
+<br>
+
+<hr>
+
+<h3>Two- way binding</h3>
+<input [(ngModel)]="nome">
+{{nome}}
+<br>
+<br>
+<hr>
